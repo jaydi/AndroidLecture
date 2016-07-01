@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/setting_event_alarm"
+        android:id="@+id/text_first_welcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello World" />
 
     <LinearLayout
-        android:id="@+id/setting_version"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -23,9 +22,9 @@
             android:text="Version" />
 
         <TextView
-            android:id="@+id/tv_version"
+            android:id="@+id/text_first_version"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0.1" />
     </LinearLayout>
-</FrameLayout>
+</LinearLayout>
