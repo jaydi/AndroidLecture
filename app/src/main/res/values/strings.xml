@@ -2,4 +2,9 @@
     <string name="app_name">Practice</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_pager">PagerActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="hello_world">Hello World</string>
+
+    <string name="button">버튼</string>
+    <string name="hello">안녕!</string>
 </resources>
