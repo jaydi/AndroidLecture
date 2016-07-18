@@ -11,37 +11,37 @@
         android:hint="@string/name"
         android:inputType="text" />
 
-    <!--<RadioGroup-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:orientation="horizontal">-->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-        <!--<RadioButton-->
-            <!--android:id="@+id/radio_input_male"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="@string/male" />-->
+        <RadioButton
+            android:id="@+id/radio_input_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
 
-        <!--<RadioButton-->
-            <!--android:id="@+id/radio_input_female"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="@string/female" />-->
-    <!--</RadioGroup>-->
+        <RadioButton
+            android:id="@+id/radio_input_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
 
-    <!--<TextView-->
-        <!--android:id="@+id/text_input_birthday"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:clickable="true"-->
-        <!--android:onClick="showDatePicker"-->
-        <!--android:text="@string/birthday" />-->
+    <TextView
+        android:id="@+id/text_input_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="showDatePicker"
+        android:text="@string/birthday" />
 
-    <!--<CheckBox-->
-        <!--android:id="@+id/check_input_agreement"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="@string/agreement" />-->
+    <CheckBox
+        android:id="@+id/check_input_agreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agreement" />
 
     <Button
         android:layout_width="wrap_content"

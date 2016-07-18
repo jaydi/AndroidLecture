@@ -5,6 +5,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 
 public class ProfileActivity extends AppCompatActivity {
@@ -22,12 +23,14 @@ public class ProfileActivity extends AppCompatActivity {
         gender = getIntent().getIntExtra("gender", 10);
         birthday = getIntent().getStringExtra("birthday");
         agreement = getIntent().getBooleanExtra("agreement", false);
+
+        Log.d("intent vars", name);
         
         showParameters();
     }
 
     private void showParameters() {
-        // TODO
+        // TODO 확인하는 화면을 보여주자
     }
 
 }
