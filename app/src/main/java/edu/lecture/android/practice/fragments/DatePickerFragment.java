@@ -1,4 +1,4 @@
-package edu.lecture.android.practice;
+package edu.lecture.android.practice.fragments;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;

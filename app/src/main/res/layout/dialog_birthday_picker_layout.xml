@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="40dp"
+    android:paddingTop="40dp" >
+
+    <DatePicker
+        android:id="@+id/date_birthday_picker_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:spinnersShown="true" />
+
+    <Button
+        android:id="@+id/button_birthday_picker_confirm"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_red_round"
+        android:gravity="center"
+        android:text="@string/confirm"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>
