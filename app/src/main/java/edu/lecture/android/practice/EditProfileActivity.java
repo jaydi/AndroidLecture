@@ -86,7 +86,7 @@ public class EditProfileActivity extends AppCompatActivity implements PictureOpt
 
     private void setImage() {
         if (imagePath != null && !imagePath.isEmpty()) {
-            ImageView imageImage = (ImageView) findViewById(R.id.image_profile_image);
+            ImageView imageImage = (ImageView) findViewById(R.id.image_edit_profile_image);
             ResourceUtils.getImageFile(imageImage, imagePath, 300, 300);
         }
     }
@@ -107,17 +107,17 @@ public class EditProfileActivity extends AppCompatActivity implements PictureOpt
 
     private void setBday() {
         if (bday != 0) {
-            TextView textBday = (TextView) findViewById(R.id.text_profile_bday);
+            TextView textBday = (TextView) findViewById(R.id.text_edit_profile_bday);
             textBday.setText(DateUtils.getRelativeTimeSpanString(bday));
         }
     }
 
     public void chooseGender(View view) {
         switch (view.getId()) {
-            case R.id.image_profile_male:
+            case R.id.image_edit_profile_male:
                 gender = GENDER_MALE;
                 break;
-            case R.id.image_profile_female:
+            case R.id.image_edit_profile_female:
                 gender = GENDER_FEMALE;
                 break;
         }
@@ -125,8 +125,8 @@ public class EditProfileActivity extends AppCompatActivity implements PictureOpt
     }
 
     private void setGender() {
-        ImageView imageMale = (ImageView) findViewById(R.id.image_profile_male);
-        ImageView imageFemale = (ImageView) findViewById(R.id.image_profile_female);
+        ImageView imageMale = (ImageView) findViewById(R.id.image_edit_profile_male);
+        ImageView imageFemale = (ImageView) findViewById(R.id.image_edit_profile_female);
 
         imageMale.setImageDrawable(ResourceUtils.getDrawable(R.drawable.ic_selected_not));
         imageFemale.setImageDrawable(ResourceUtils.getDrawable(R.drawable.ic_selected_not));
@@ -138,7 +138,7 @@ public class EditProfileActivity extends AppCompatActivity implements PictureOpt
     }
 
     public void confirmProfile(View view) {
-        EditText editName = (EditText) findViewById(R.id.edit_profile_nickname);
+        EditText editName = (EditText) findViewById(R.id.edit_edit_profile_nickname);
         name = editName.getEditableText().toString();
 
         // validation

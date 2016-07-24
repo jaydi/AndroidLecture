@@ -1,5 +1,4 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pink_red"
@@ -7,7 +6,7 @@
     android:orientation="vertical" >
 
     <ImageView
-        android:id="@+id/image_profile_image"
+        android:id="@+id/image_edit_profile_image"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
@@ -16,7 +15,7 @@
         android:src="@drawable/ic_profile_dummy" />
 
     <EditText
-        android:id="@+id/edit_profile_nickname"
+        android:id="@+id/edit_edit_profile_nickname"
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
@@ -27,7 +26,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/text_profile_bday"
+        android:id="@+id/text_edit_profile_bday"
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
@@ -54,7 +53,7 @@
             android:textSize="20sp" />
 
         <ImageView
-            android:id="@+id/image_profile_male"
+            android:id="@+id/image_edit_profile_male"
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:layout_gravity="start"
@@ -73,7 +72,7 @@
             android:textSize="20sp" />
 
         <ImageView
-            android:id="@+id/image_profile_female"
+            android:id="@+id/image_edit_profile_female"
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:layout_gravity="end"
